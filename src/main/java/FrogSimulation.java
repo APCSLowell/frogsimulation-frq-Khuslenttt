@@ -36,7 +36,7 @@ public class FrogSimulation
 		/* to be implemented in part (b) */ 
 		double success = 0.0;
 		for(int i = 0; i < num; i++){
-			if(simulate()){
+			if(simulate()==true){
 				success++;
 			}
 		}
